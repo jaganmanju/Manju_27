@@ -29,10 +29,8 @@ def inputid(a):
     a = input_df['GUID'].tolist()
     print(a)
     golden_df = pd.DataFrame(list_cur)
-    # print(golden_df)
     b = golden_df['GUID'].tolist()
     print(b)
-    # c = [int(x) for x in b]
     #Comparing two lists#
     merge_guid = []
     for i in a:
